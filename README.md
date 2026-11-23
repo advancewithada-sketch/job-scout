@@ -1,5 +1,14 @@
 # The Job Scout
 
+## Make it yours
+
+This is a starting point, not a finished product. It was built for one person's work, and every rule in it is meant to be changed to fit yours. Nothing in here is precious.
+
+- Fill in the `[BRACKETED]` placeholders in [`PROMPT.md`](PROMPT.md) with your own details.
+- Read [`FEATURES.md`](FEATURES.md). It explains each feature, why it's there, and which part of the prompt to edit to turn it off, loosen it or swap it.
+- Edit the prompt in plain words. If a rule doesn't fit how you work, rewrite it or delete it.
+- Run it once by hand after every change and read what comes back.
+
 An agent that reads the job boards every morning, checks each posting against your real resume and your pay floor, and hands you an outline for the ones worth your time. It never applies for you. You still write the letter.
 
 > "I built an agent to take all of the repetitive work out. Everything creative in job applications stayed right where it was."
@@ -7,6 +16,17 @@ An agent that reads the job boards every morning, checks each posting against yo
 > Ada Wogu, Fractional COO, [The Optimized CEO](https://www.theoptimized.ceo)
 
 This repo is the same five steps as the guide at [theoptimized.ceo/guides/job-scout](https://www.theoptimized.ceo/guides/job-scout), with the prompts already written out in [`PROMPT.md`](PROMPT.md).
+
+## Features
+
+- Checks every posting against your real resume and a pay bar
+- Reminds you daily until you've looked at each one
+- Only roles posted in the last 7 days
+- Never applies for you
+
+**Who it's for:** anyone job-hunting alongside running a business.
+
+**What it replaces:** doom-scrolling job boards and rewriting the resume for every posting.
 
 ## You need
 
@@ -64,6 +84,7 @@ When a role makes you lean in, paste the posting link into the Job Scout project
 
 | File | What it is |
 | --- | --- |
+| `FEATURES.md` | Each feature, why it's there, and which part of the prompt to edit to change it |
 | `PROMPT.md` | All five prompts from the guide, with `[bracket]` placeholders for your details |
 | `rules.example.md` | The shape of the four rules and the search phrases you fill in |
 
