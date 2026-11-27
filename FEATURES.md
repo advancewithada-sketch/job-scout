@@ -14,13 +14,16 @@ Every feature below is a few lines in [`PROMPT.md`](PROMPT.md). Change the words
 - Drop postings with no pay listed: change "If no pay is listed, KEEP it and flag it" to "drop it". Expect to lose roles you would have wanted.
 - A longer or shorter fit check: change "in 2 to 4 honest sentences".
 
-## Reminds you daily until you've looked at each one
+## Skips roles it has already shown you
 
-**What it does.** In the original, each morning's scan keeps bringing a role back until you have acknowledged it.
+**What it does.** The "Morning scan, scheduled" prompt in [`PROMPT.md`](PROMPT.md) tells the scout to skip any role it already gave you in an earlier scan. It also lists roles from earlier scans that are now older than your freshness window, so you can let them go.
 
 **Why it's there.** No reason is written down beyond what it does.
 
-**How to change it.** The "Morning scan, scheduled" prompt in [`PROMPT.md`](PROMPT.md) skips roles it already gave you and lists roles now older than your freshness window; it does not keep a list of the roles you've acknowledged. To add the reminder, add a line to that prompt such as: "Keep a list of roles I have acknowledged. Until I acknowledge a role, list it again each morning under 'Still waiting for you'." To turn reminders off, leave the prompt as it is.
+**How to change it.**
+- Get a daily reminder until you've looked at each role: add a line to the morning scan prompt such as: "Keep a list of roles I have acknowledged. Until I acknowledge a role, list it again each morning under 'Still waiting for you'."
+- See repeats again: delete "Skip any role you already gave me in an earlier scan."
+- Stop the aged-out list: delete item 2 of the morning scan's report.
 
 ## Only roles posted in the last 7 days
 
