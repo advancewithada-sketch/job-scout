@@ -13,6 +13,10 @@ An agent that reads the job boards every morning, checks each posting against yo
 
 This repo walks the same five steps as the guide, with the prompts already written out in [`PROMPT.md`](PROMPT.md).
 
+## The dashboard: Marketing HQ
+
+This agent reports into one section of **Marketing HQ**, a single dashboard where all of the marketing agents land. The whole dashboard is free in its own repo: [marketing-hq](https://github.com/advancewithada-sketch/marketing-hq). Open it locally to see every section with sample data, or publish it as a Claude artifact with a database and point this agent at it.
+
 ## Features
 
 - Checks every posting against your real resume and a pay bar
@@ -87,3 +91,5 @@ When a role makes you lean in, paste the posting link into the Job Scout project
 ## Shared as-is
 
 This is the scout exactly as it runs for one Fractional COO, with personal details taken out. No support, no roadmap. Fork it and make it yours.
+
+Made by Ada from [theoptimized.ceo](https://www.theoptimized.ceo).
