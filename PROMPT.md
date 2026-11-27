@@ -1,6 +1,6 @@
 # The Job Scout: prompts
 
-Every block below is a prompt. Copy it, fill in the parts in `[brackets]`, paste it where the step says. These are the same prompts as on the guide page: https://www.theoptimized.ceo/guides/job-scout
+Every block below is a prompt. Copy it, fill in the parts in `[brackets]`, paste it where the step says.
 
 ## Step 2: Project instructions
 

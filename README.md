@@ -11,16 +11,12 @@ This is a starting point, not a finished product. It was built for one person's 
 
 An agent that reads the job boards every morning, checks each posting against your real resume and your pay floor, and hands you an outline for the ones worth your time. It never applies for you. You still write the letter.
 
-> "I built an agent to take all of the repetitive work out. Everything creative in job applications stayed right where it was."
->
-> Ada Wogu, Fractional COO, [The Optimized CEO](https://www.theoptimized.ceo)
-
-This repo is the same five steps as the guide at [theoptimized.ceo/guides/job-scout](https://www.theoptimized.ceo/guides/job-scout), with the prompts already written out in [`PROMPT.md`](PROMPT.md).
+This repo walks the same five steps as the guide, with the prompts already written out in [`PROMPT.md`](PROMPT.md).
 
 ## Features
 
 - Checks every posting against your real resume and a pay bar
-- Reminds you daily until you've looked at each one
+- Skips roles it has already shown you
 - Only roles posted in the last 7 days
 - Never applies for you
 
@@ -91,5 +87,3 @@ When a role makes you lean in, paste the posting link into the Job Scout project
 ## Shared as-is
 
 This is the scout exactly as it runs for one Fractional COO, with personal details taken out. No support, no roadmap. Fork it and make it yours.
-
-Made by Ada, Fractional COO, at [The Optimized CEO](https://www.theoptimized.ceo). I build the backend your business actually runs on.
